@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-md-2">
+    	<label>Search: </label><input ng-model="query">
+    	<label>Sort by:</label>
+    		<select ng-model="orderProp">
+    			<option value="name">Alphabetical</option>
+    			<option value="spice">Spice Level</option>
+			</select>
+    </div>
+
+    <div class="col-md-10">
+      <ul class="peppers">
+        <li ng-repeat="pepper in peppers | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/peppers/{{pepper.id}}" class="thumb"><img ng-src="{{pepper.image}}"></a>
+          <a href="#/peppers/{{pepper.id}}">{{pepper.name}}</a>
+          <p>{{pepper.description}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+

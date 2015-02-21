@@ -1,0 +1,43 @@
+{
+  "description": "The bhut jolokia, also known as bih jolokia, u-morok, ghost pepper, ghost chili pepper, red naga chili, Naga Jolokia, and ghost chili, is an interspecific hybrid chili pepper cultivated in Bangladesh and Indian states of Assam, Nagaland and Manipur. It is an interspecies hybrid of C. chinense and C. frutescens genes. In 2007, Guinness World Records certified that the ghost pepper was the world's hottest chili pepper, 900.5 times hotter than Tabasco sauce; the ghost chili is rated at more than 1 million Scoville heat units.",
+  "characteristics": {
+    "plant": [
+      "Plant height: 45–120 cm (17-47 inches)",
+      "Stem color: green",
+      "Leaf color: green",
+      "Leaf size: 10.65–14.25 cm",
+      "Fruit color at maturity: Red is the most common, with orange, yellow and chocolate as rarer varieties",
+      "Fruit shape: Subconical to conical",
+      "Fruit length: 5.95–8.54 cm"
+    ],
+    "heat": [
+      "Exceptionally hot",
+      "Up to 1,041,427 Scoville",
+      "Interspecific"
+    ]
+  },
+  "uses": {
+    "food": [
+      "Bhut jolokia is used as a food and a spice, as well as a remedy to summer heat. It is used in both fresh and dried forms, to not only heat up curries, pickles and chutneys, but also to impart two distinct flavors to them. It is popularly used in combination with pork or dried or fermented fish. The pepper's intense heat makes it a fixture in competitive chili pepper eating."
+    ],
+    "other": [
+      "In northeastern India, the peppers are smeared on fences or incorporated in smoke bombs as a safety precaution to keep wild elephants at a distance."
+    ]
+  },
+  "id": "ghost-pepper",
+  "images": [
+    {
+      "img": "img/peppers/ghost-pepper.jpg",
+      "caption": "Freshly harvested"
+    },
+    {
+      "img": "img/peppers/ghost-pepper2.jpg",
+      "caption": "Ghost pepper growing in a garden"
+    },
+    {
+      "img": "img/peppers/ghost-pepper3.jpg",
+      "caption": "Dried ghost pepper"
+    }
+  ],
+  "name": "Ghost Pepper"
+}

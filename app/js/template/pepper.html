@@ -1,0 +1,37 @@
+<div class="name-desc-img">
+  <h1>{{pepper.name}}</h1>
+  <p>{{pepper.description}}</p>
+</div>
+
+<!-- <div ng-controller="CarouselPepperCtrl">
+  <div style="height: 100px">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.img}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <p>{{slide.caption}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+</div>
+ -->
+
+<div class="pepper">
+  <div class="pepper-tools">
+      <ul>
+        <h2>Plant</h2>
+          <li class="plant" ng-repeat="plant in pepper.characteristics.plant">{{plant}}</li>
+      </ul>
+  </div>
+  <div class="heat">
+        <h2>Heat level</h2>
+          <ul>
+            <li>Heat: {{pepper.characteristics.heat[0]}}</li>
+            <li>Heat Level: {{pepper.characteristics.heat[1]}}</li>
+            <li>Family: {{pepper.characteristics.heat[2]}}</li>
+          </ul>
+  </div>
+</div>
+
+

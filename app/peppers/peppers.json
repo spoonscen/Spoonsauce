@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jalepeno",
+    "description": "A milder pepper that is great for eating raw",
+    "spice": 3,
+    "image": "img/peppers/jalepeno.jpg",
+    "id": "jalepeno"
+  },
+  {
+    "name": "Habanero",
+    "description": "A smaller pepper with a strong kick",
+    "spice": 6,
+    "image": "img/peppers/habanero.jpg",
+    "id": "habanero"
+  },
+  {
+    "name": "Ghost Pepper",
+    "description": "This pepper is on the hotter side of what can be found in food",
+    "spice": 9,
+    "image": "img/peppers/ghost-pepper.jpg",
+    "id": "ghost-pepper"
+  },
+  {
+    "name": "Thai Chili",
+    "description": "Great spicy pepper great for asian cuisine",
+    "spice": 7,
+    "image": "img/peppers/thai-chili.jpg",
+    "id": "thai-chili"
+  }
+]

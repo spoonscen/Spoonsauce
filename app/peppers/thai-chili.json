@@ -1,0 +1,33 @@
+{
+  "description": "The bird's eye chili plant is a perennial with small, tapering fruits, often two or three, at a node. The fruits are very pungent. The bird's eye chili is small, but is quite hot (piquant). It measures around 100,000–225,000 Scoville units, which is at the lower half of the range for the hotter habanero chili but still many times more spicy than a jalapeño.",
+  "characteristics": {
+    "plant": [
+      "Plant height: up to 2 m",
+      "Stem color: green",
+      "Leaf color: green",
+      "Leaf size: 3–8 cm by 2–4 cm",
+      "Fruit color at maturity: green, orange, or red",
+      "Fruit shape: conical",
+      "Fruit length: 2–3 cm"
+    ],
+    "heat": [
+      "Very Hot",
+      "100,000–225,000 Scoville",
+      "Capsicum annuum family"
+    ]
+  },
+  "uses": {
+    "food": [
+      "In Vietnamese cuisine, these chilis are used in soups, salads, and stir-fried dishes. They are also put in fish sauce as a condiment or eaten raw.",
+      "In Thai cuisine, these chilis are highly valued for their fruity taste and extreme spiciness. They are extensively used in many Thai dishes, such as in Thai curries and in Thai salads, green as well as the ripe red chilis; or they can just be eaten raw on the side, with for instance, khao kha mu (stewed pork trotter served with rice)."
+    ],
+    "other": [
+      "The more decorative, but slightly less pungent chili, sometimes known as 'Thai ornamental', has peppers that point upward on the plant, and range from green to yellow, orange, and then red. It is the basis for the hybrid cultivar 'Numex twilight', essentially the same, but less pungent, and starting with purple fruit, creating a rainbow effect. These peppers can grow wild in places such as Saipan and Guam."
+    ]
+  },
+  "id": "thai-chili",
+  "images": [
+    "img/peppers/thai-chili.jpg"
+  ],
+  "name": "Thai Chili"
+}

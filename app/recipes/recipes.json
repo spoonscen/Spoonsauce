@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Vincent Vega",
+    "description": "Kick in the butt ginger sauce",
+    "spice": 3,
+    "image": "img/placeholder.jpg",
+    "id": "vincent-vega"
+  },
+  {
+    "name": "Jimmie Dimmick",
+    "description": "spicy green paste",
+    "spice": 8,
+    "image": "img/placeholder.jpg",
+    "id": "jimmie-dimmick"
+  },
+  {
+    "name": "Orange paste",
+    "description": "spicy orange paste",
+    "spice": 1,
+    "image": "img/placeholder.jpg",
+    "id": "thai-orange-paste"
+  }
+]
