@@ -2,6 +2,16 @@
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.cursive {
+	font-family: 'Dancing Script', cursive;
+}
+
+.container {
+	background-color: #FEFDFB;
+	box-shadow: 10px 10px 53px 0px rgba(222,222,222,1);
+}
+
+
 nav {
 	padding-left: 50px;
 
@@ -40,11 +50,7 @@ nav {
 }*/
 
 #content {
-	border-radius: 10px;
-	position: relative;
 	margin-bottom: 30px;
-
-
 }
 
 
@@ -55,7 +61,7 @@ nav {
 	margin: 188px auto 20px auto;
 
 	h1 {
-		font-size: 40px;
+		font-size: 60px;
 		font-weight: 600;
 
 	}
@@ -66,11 +72,49 @@ nav {
 	margin-top: 40%;
 }
 
-.list {
+.search-div {
 	margin-top: 200px;
+	margin-left: 20px;
+	
+	label {
+		font-size: 18px;
+	}
+
+	label:nth-child(2) {
+		margin-left: 100px;
+	}
+	.search, .select {
+		margin: 10px;
+	}
+	
+	form {
+		margin: 0 auto;
+	}
+
 }
 
 
+.list {
+	ul {
+		padding-left: 0px;
+		list-style: none;
+	}
+
+	img {
+		opacity: 1.0;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+
+	img:hover {
+	    opacity: 0.4;
+	}
+	
+	.thumbs {
+		text-align: center;
+	}
+}
 
 #home-page-banner {
 	width: 100%;

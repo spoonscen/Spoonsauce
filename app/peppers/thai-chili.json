@@ -27,7 +27,18 @@
   },
   "id": "thai-chili",
   "images": [
-    "img/peppers/thai-chili.jpg"
+    {
+      "img": "img/peppers/thai-chili1.jpg",
+      "caption": "Harvested red  thai chilis"
+    },
+    {
+      "img": "img/peppers/thai-chili2.jpg",
+      "caption": "Thai Chilis growing in a garden"
+    },
+    {
+      "img": "img/peppers/thai-chili3.jpg",
+      "caption": "Harvested red  thai chilis"
+    }
   ],
   "name": "Thai Chili"
 }

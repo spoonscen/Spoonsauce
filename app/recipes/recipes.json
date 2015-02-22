@@ -3,21 +3,28 @@
     "name": "Vincent Vega",
     "description": "Kick in the butt ginger sauce",
     "spice": 3,
-    "image": "img/placeholder.jpg",
+    "image": "img/test/ginger.jpg",
     "id": "vincent-vega"
   },
   {
     "name": "Jimmie Dimmick",
     "description": "spicy green paste",
     "spice": 8,
-    "image": "img/placeholder.jpg",
+    "image": "img/test/chilis.jpg",
     "id": "jimmie-dimmick"
   },
   {
     "name": "Orange paste",
     "description": "spicy orange paste",
     "spice": 1,
-    "image": "img/placeholder.jpg",
+    "image": "img/test/thai-chilis.jpg",
     "id": "thai-orange-paste"
+  },
+  {
+    "name": "Marsellus Wallace",
+    "description": "Kick in the butt",
+    "spice": 1,
+    "image": "img/test/vincent-vega.jpg",
+    "id": "marsellus-wallace"
   }
 ]

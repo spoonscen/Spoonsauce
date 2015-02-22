@@ -1,23 +1,26 @@
-<div class="container-fluid">
-  <div class="row list">
+<div class="container">
+  <div class="row">
     
-    <div class="col-md-12">
-    	<label>Search: </label><input ng-model="query">
-    	<label>Sort by:</label>
-    		<select ng-model="orderProp">
+    <div class="search-div form-group">
+      <form class="form-inline search-form">
+    	<label>Search: </label><input class="form-control search" width="10em" ng-model="query">
+    	<label class="select-label">Sort by:</label>
+    		<select class="form-control select"ng-model="orderProp">
     			<option value="name">Alphabetical</option>
     			<option value="spice">Spice Level</option>
 			</select>
+      </form>
     </div>
-
-    <div class="col-md-12">
-      <ul>
-        <li ng-repeat="sauce in sauces | filter:query | orderBy:orderProp" class="thumbnail">
-          <a href="#/recipes/{{sauce.id}}" class="thumb"><img ng-src="{{sauce.image}}"></a>
-          <a href="#/recipes/{{sauce.id}}">{{sauce.name}}</a>
-          <p>{{sauce.description}}</p>
-        </li>
-      </ul>
+    <div class="col-md-12 list">
+        <ul>
+            <li class="row col-md-6 thumbs" ng-repeat="sauce in sauces | filter:query | orderBy:orderProp">
+              <a href="#/recipes/{{sauce.id}}">
+              <div class="img-responsive"><img ng-src="{{sauce.image}}"></a>
+              <h2 class="cursive">{{sauce.name}}</h2>
+              <p>{{sauce.description}}</p>
+              </div>
+            </li>
+        </ul>
     </div>
   </div>
 </div>

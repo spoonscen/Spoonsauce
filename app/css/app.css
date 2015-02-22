@@ -1,6 +1,13 @@
 * {
   font-family: 'Josefin Sans', sans-serif; }
 
+.cursive {
+  font-family: 'Dancing Script', cursive; }
+
+.container {
+  background-color: #FEFDFB;
+  box-shadow: 10px 10px 53px 0px #dedede; }
+
 nav {
   padding-left: 50px; }
   nav .logo {
@@ -27,8 +34,6 @@ nav {
     background-position: center;
 }*/
 #content {
-  border-radius: 10px;
-  position: relative;
   margin-bottom: 30px; }
 
 .name-desc-img {
@@ -37,14 +42,35 @@ nav {
   width: 400px;
   margin: 188px auto 20px auto; }
   .name-desc-img h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600; }
 
 .ingredients-tools {
   margin-top: 40%; }
 
-.list {
-  margin-top: 200px; }
+.search-div {
+  margin-top: 200px;
+  margin-left: 20px; }
+  .search-div label {
+    font-size: 18px; }
+  .search-div label:nth-child(2) {
+    margin-left: 100px; }
+  .search-div .search, .search-div .select {
+    margin: 10px; }
+  .search-div form {
+    margin: 0 auto; }
+
+.list ul {
+  padding-left: 0px;
+  list-style: none; }
+.list img {
+  opacity: 1.0;
+  margin: 0 auto;
+  max-width: 500px; }
+.list img:hover {
+  opacity: 0.4; }
+.list .thumbs {
+  text-align: center; }
 
 #home-page-banner {
   width: 100%;
