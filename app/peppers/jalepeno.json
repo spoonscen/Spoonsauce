@@ -1,0 +1,47 @@
+{
+  "description": "The habanero chili comes from the Amazonas region, and from there it was spread through Mexico. One domesticated habanero, which was dated at 8,500 years old, was found at an archaeological dig in Peru. An intact fruit of a small domesticated habanero, found in pre-ceramic levels in Guitarrero Cave in the Peruvian highlands, was dated to 6500 BC.",
+  "characteristics": {
+    "plant": [
+      "Plant height: 60–120 cm (24–47 in)",
+      "Stem color: green",
+      "Leaf color: green",
+      "Leaf size: 3–8 cm by 2–4 cm",
+      "Fruit color at maturity: green or red",
+      "Fruit shape: conical",
+      "Fruit length: 5-10 cm"
+    ],
+    "heat": [
+      "Medium Hot",
+      "2,500–10,000 Scoville",
+      "Capsicum annuum family"
+    ]
+  },
+  "uses": {
+    "food": [
+      "Stuffed jalapeños are hollowed out fresh jalapeños (served cooked or raw) that are stuffed, often with a mix containing seafood, meat, poultry, and/or cheese.",
+      "Pickled jalapeños, sliced or whole, are often served hot or cold on top of nachos, which are tortilla chips with melted cheese on top, a traditional Tex-Mex dish",
+      "Chipotles are smoked, ripe jalapeños.",
+      "Jalapeño jelly can be prepared using jelling methods.",
+      "Jalapeño peppers are often muddled and served in mixed drinks."
+    ],
+    "other": [
+      "Jalapeño juice is often used as a remedy for seasonal allergies and cardiovascular problems."
+    ]
+  },
+  "id": "jalapeno",
+  "images": [
+    {
+      "img": "img/peppers/jalepeno.jpg",
+      "caption": "Jalapeño pepper"
+    },
+    {
+      "img": "img/peppers/jalapeno1.jpg",
+      "caption": "Jalapeño's in a bowl"
+    },
+    {
+      "img": "img/peppers/jalapeno2.jpg",
+      "caption": "Jalapeños growing in the garden"
+    }
+  ],
+  "name": "Jalapeño"
+}

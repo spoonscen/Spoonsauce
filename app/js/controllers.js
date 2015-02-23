@@ -9,9 +9,9 @@ var sauceRecipeControllers = angular.module('sauceRecipeControllers', []);
 sauceRecipeControllers.controller('NavbarCtrl', 
   function($scope, $location) {
     'use strict';
-
+    var path = 
     $scope.isActive = function(viewLocation) {
-        return viewLocation === $location.path();
+        return viewLocation === $location.path().split('/');
     };
 });
 
