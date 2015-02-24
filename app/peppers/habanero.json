@@ -1,5 +1,5 @@
 {
-  "description": "Thee jalapeño is variously named in Mexico as huachinango and chile gordo. The cuaresmeño closely resembles the jalapeño. The seeds of a cuaresmeño have the heat of a jalapeño, but the flesh has a mild flavor close to a green bell pepper.",
+  "description": "The habanero chili comes from the Amazonas region, and from there it was spread through Mexico. One domesticated habanero, which was dated at 8,500 years old, was found at an archaeological dig in Peru. An intact fruit of a small domesticated habanero, found in pre-ceramic levels in Guitarrero Cave in the Peruvian highlands, was dated to 6500 BC.",
   "characteristics": {
     "plant": [
       "Stem color: green",
@@ -17,14 +17,10 @@
   },
   "uses": {
     "food": [
-      "Stuffed jalapeños are hollowed out fresh jalapeños (served cooked or raw) that are stuffed, often with a mix containing seafood, meat, poultry, and/or cheese.",
-      "Pickled jalapeños, sliced or whole, are often served hot or cold on top of nachos, which are tortilla chips with melted cheese on top, a traditional Tex-Mex dish",
-      "Chipotles are smoked, ripe jalapeños.",
-      "Jalapeño jelly can be prepared using jelling methods.",
-      "Jalapeño peppers are often muddled and served in mixed drinks."
+      "Because they are extremely hot, Habanero peppers are usually not eaten whole but are widely used in making salsas, sauces, salad dressings and as an ingredient in bottled hot sauce. Habaneros are sometimes mistaken for Scotch bonnet peppers, which they resemble and which are equally hot."
     ],
     "other": [
-      "Jalapeño juice is often used as a remedy for seasonal allergies and cardiovascular problems."
+      "Habaneros are mostly found in food."
     ]
   },
   "id": "habanero",

@@ -9,9 +9,8 @@ var sauceRecipeControllers = angular.module('sauceRecipeControllers', []);
 sauceRecipeControllers.controller('NavbarCtrl', 
   function($scope, $location) {
     'use strict';
-    var path = 
     $scope.isActive = function(viewLocation) {
-        return viewLocation === $location.path().split('/');
+        return viewLocation === $location.path().substr(0, viewLocation.length);
     };
 });
 
@@ -35,13 +34,10 @@ sauceRecipeControllers.controller('CarouselPepperCtrl', ['$scope', '$routeParams
 }]);
 
 // Controller for the main Sauce page
-sauceRecipeControllers.controller('RecipePageCtrl', ['$scope', '$http', 
-  function($scope, $http) {
-    $http.get('recipes/recipes.json').success(function(data) {
-      $scope.sauces = data;
-    });
-  
-  $scope.orderProp = "spice";
+sauceRecipeControllers.controller('RecipePageCtrl', ['$scope', 'Recipe', 
+  function($scope, Recipe) {
+    $scope.sauces = Recipe.query();
+    $scope.orderProp = "spice";
 }]);
 
 //controller for the idividual pepper pages

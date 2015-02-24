@@ -18,7 +18,8 @@
   </div>
 
   <div class="recipe">
-    <div class="ingredients-tools row">
+    <div class="ingredients-tools row clearfix">
+      <div class="col-md-12">
         <div class="col-md-6">
           <ul>
             <h2>Plant</h2>
@@ -33,11 +34,12 @@
             <li>Family: {{pepper.characteristics.heat[2]}}</li>
           </ul>
         </div>
+      </div>
         <div class="row">
           <div class="col-md-6">
             <ul>
               <h2>In Food</h2>
-              <li class="use" ng-repeat="use in pepper.uses.food">{{use}}></li>
+              <li class="use" ng-repeat="use in pepper.uses.food">{{use}}</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -47,7 +49,6 @@
             </ul>
           </div>
         </div>
-
       </div>
     </div>
   </div>

@@ -12,8 +12,8 @@ nav {
   padding-left: 50px; }
   nav .logo {
     border-bottom: 1px dotted #757575;
-    width: 400px;
-    margin-left: 15px; }
+    width: 363px;
+    margin-left: 16px; }
   nav h1 {
     text-align: center;
     font-size: 80px;
@@ -27,12 +27,6 @@ nav {
     nav li a {
       font-size: 22px; }
 
-/*body {
-	background-image: url('../img/test/chilis.jpg');
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}*/
 #content {
   margin-bottom: 30px; }
 
@@ -73,7 +67,7 @@ nav {
   text-align: center; }
 
 #home-page-banner {
-  width: 100%;
+  width: 100% !important;
   position: relative;
   margin-top: 168px; }
   #home-page-banner img {
@@ -101,3 +95,5 @@ nav {
 
 .modal-dialog {
   margin-top: 100px; }
+
+/*# sourceMappingURL=app.css.map */

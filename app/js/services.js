@@ -1,8 +1,8 @@
-// var spoonSauceServices = angular.module('spoonSauceServices', ['ngResource']);
+var spoonsauceServices = angular.module('spoonsauceServices', ['ngResource']);
 
-// spoonSauceServices.factory('Recipe', ['$resource',
-// 	function($resource){
-// 		return $resource('recipes/:recipeId.json', {}, {
-// 			query: {method: 'GET', params:{recipeId:'recipes'}, isArray:true}
-// 		});
-// 	}]);
+spoonsauceServices.factory('Recipe', ['$resource',
+	function($resource){
+		return $resource('recipes/:recipeId.json', {}, {
+			query: {method:'GET', params:{recipeId:'recipes'}, isArray:true}
+		});
+	}]);

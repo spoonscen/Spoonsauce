@@ -5,7 +5,8 @@
 var spoonSauceApp = angular.module('spoonSauceApp', [
   'ngRoute',
   'ui.bootstrap',
-  'sauceRecipeControllers'
+  'sauceRecipeControllers',
+  'spoonsauceServices'
   ]);
 
 spoonSauceApp.config(['$routeProvider',
