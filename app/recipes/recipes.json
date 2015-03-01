@@ -1,30 +1,31 @@
 [
   {
     "name": "Vincent Vega",
-    "description": "Kick in the butt ginger sauce",
-    "spice": 3,
+    "description": "Smoked chili peppers with garlic and hint of ginger",
+    "spice": 6,
     "image": "img/test/ginger.jpg",
     "id": "vincent-vega"
   },
   {
     "name": "Jimmie Dimmick",
-    "description": "spicy green paste",
-    "spice": 8,
+    "description": "A citrus based sauce using green chilis",
+    "spice": 9,
     "image": "img/test/chilis.jpg",
     "id": "jimmie-dimmick"
   },
   {
-    "name": "Orange paste",
-    "description": "spicy orange paste",
-    "spice": 1,
+    "name": "Jules Winnfield",
+    "description": "A citrus based thai chili sauce with a tangy twist",
+    "spice": 7,
     "image": "img/test/thai-chilis.jpg",
-    "id": "thai-orange-paste"
+    "id": "jules-winnfield"
   },
   {
-    "name": "Marsellus Wallace",
-    "description": "Kick in the butt",
-    "spice": 1,
-    "image": "img/test/vincent-vega.jpg",
-    "id": "marsellus-wallace"
+    "name": "Raede to Go",
+    "description": "Isreali style hotsauce loosely based on schug",
+    "spice": 8,
+    "image": "img/sauces/raede-to-go.jpg",
+    "id": "raede-to-go"
   }
 ]
+

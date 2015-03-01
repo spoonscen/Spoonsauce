@@ -64,18 +64,18 @@ sauceRecipeControllers.controller('RecipeDetailCtrl', ['$scope', '$routeParams',
 // }]);
 
 // placeholder controller for the home page
-sauceRecipeControllers.controller('HomePageCtrl', ['$scope', 
-  function($scope) {}
-]);
+sauceRecipeControllers.controller('HomePageCtrl', ['$scope', 'Recipe', 'Pepper',
+  function($scope, Recipe, Pepper) {
+    $scope.sauces = Recipe.query();
+    $scope.peppers = Pepper.query();
+  }]);
 
 //Controller for the peppers list page
-sauceRecipeControllers.controller('PepperPageCtrl', ['$scope', '$http', 
-  function($scope, $http) {
-    $http.get('peppers/peppers.json').success(function(data) {
-      $scope.peppers = data;
-    });
-  
-  $scope.orderProp = "spice";
+sauceRecipeControllers.controller('PepperPageCtrl', ['$scope', 'Pepper', 
+  function($scope, Pepper) {
+      $scope.peppers = Pepper.query();
+      $scope.orderProp = "spice";
+    
 }]);
 
 //Controller for the pepper details page

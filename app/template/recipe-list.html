@@ -1,14 +1,15 @@
-<div class="container">
+<div class="container content">
   <div class="row">
-    
+  <div>    
+  <h1 class="cursive list-title">Recipes</h1>
     <div class="search-div form-group">
       <form class="form-inline search-form">
-    	<label>Search: </label><input class="form-control search" width="10em" ng-model="query">
-    	<label class="select-label">Sort by:</label>
-    		<select class="form-control select"ng-model="orderProp">
-    			<option value="name">Alphabetical</option>
-    			<option value="spice">Spice Level</option>
-			</select>
+      <label>Search: </label><input class="form-control search" width="10em" ng-model="query">
+      <label class="select-label">Sort by:</label>
+        <select class="form-control select"ng-model="orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="spice">Spice Level</option>
+      </select>
       </form>
     </div>
     <div class="col-md-12 list">
@@ -21,6 +22,7 @@
               </div>
             </li>
         </ul>
+    </div>
     </div>
   </div>
 </div>

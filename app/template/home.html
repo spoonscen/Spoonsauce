@@ -3,13 +3,33 @@
 	<p class="bounceInRight">Welcome to <span>Spoonsauce!</span></p>
 </div>
 
-<div id="home-page-content" class="container">
-	<div class="row">
-		<div class="col-md-6">
-			
-		</div>
-		<div class="col-md-6">
-			
-		</div>
-	</div>
+<div id="home-page-content" class="container content">
+	<div class="col-md-12">
+		<h1 class="sauce-header">Check out our newest <span class="cursive">Sauces</span></h1>
+			<div class="row">
+				<div class="col-md-12 list">
+			        <ul>
+			            <li class="row col-md-6 thumbs" ng-repeat="sauce in sauces | filter:query | orderBy:orderProp">
+			              <a href="#/recipes/{{sauce.id}}">
+			              <div class="img-responsive"><img ng-src="{{sauce.image}}"></a>
+			              <h2 class="cursive">{{sauce.name}}</h2>
+			              <p>{{sauce.description}}</p>
+			              </div>
+			            </li>
+			        </ul>
+		   		</div>
+			</div>
+			<h1 class="pepper-header">Our favorite <span class="cursive">Peppers</span></h1>
+			<div class="col-md-12 list">
+		        <ul>
+		            <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
+		              <a href="#/peppers/{{pepper.id}}">
+		              <div class="img-responsive"><img ng-src="{{pepper.image}}"></a>
+		              <h2 class="cursive">{{pepper.name}}</h2>
+		              <p>{{pepper.description}}</p>
+		              </div>
+		            </li>
+		        </ul>
+		    </div>
+	    </div>
 </div>

@@ -8,7 +8,8 @@
 
 .container {
 	background-color: #FEFDFB;
-	box-shadow: 10px 10px 53px 0px rgba(222,222,222,1);
+	box-shadow: 0px 0px 53px 0px #F1F1F1;
+	border-radius: 5px;
 }
 
 
@@ -51,24 +52,38 @@ nav {
 .name-desc-img {
 	text-align: center;
 	position: relative;
-	width: 400px;
+	width: 80%;
 	margin: 188px auto 20px auto;
 
 	h1 {
 		font-size: 60px;
 		font-weight: 600;
+	}
 
+	p {
+		font-size: 16px;
 	}
 
 }
 
-.ingredients-tools {
-	margin-top: 40%;
+.carouselSize {
+	width: 90%;
+	margin: 0 auto;
+
+	img {
+		border-radius: 3px;
+
+	}
+
+
 }
 
+
+
+
 .search-div {
-	margin-top: 200px;
-	margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 25px;
 	
 	label {
 		font-size: 18px;
@@ -98,6 +113,9 @@ nav {
 		opacity: 1.0;
 		margin: 0 auto;
 		max-width: 500px;
+		box-shadow: 0px 0px 53px 0px #F1F1F1;
+		border-radius: 3px;
+		margin-top: 10px;
 	}
 
 
@@ -107,11 +125,16 @@ nav {
 	
 	.thumbs {
 		text-align: center;
+		margin-left: 5px;
+	}
+
+	p {
+		font-size: 20px;
 	}
 }
 
 #home-page-banner {
-	width: 100% !important;
+	width: 100%;
 	position: relative;
 	margin-top: 168px;
 
@@ -132,14 +155,75 @@ nav {
 	}
 }
 
+.container.content {
+	padding-top: 130px;
+	margin-bottom: 10%;
+
+	h1 {
+		font-size: 60px;
+		border-bottom: 1px dotted #757575;
+		margin: 0 auto;
+		color: #757575;
+		margin-top: 15px;
+		text-align: center;
+	}
+	
+	.sauce-header {
+		width: 665px;
+	}
+
+	.pepper-header {
+		width: 470px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.list-title {
+		margin-top: 50px;
+		width: 151px;
+	}
+}
+
+
 .modal-body {
 	padding: 5px;
 }
 
 .recipe {
-	margin-top: 200px;
-	margin-bottom: 50px;
-	position: relative;
+	margin: 0 auto;
+	width: 80%;
+
+	p {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 27px;
+		text-transform: uppercase;
+	}
+
+	li {
+		font-size: 16px;
+		}
+	.ingredients {
+		border-right: 1px dotted #757575;
+		height: 264px;
+	}
+
+	.ingredients-tools {
+		margin-top: 47%;
+	}
+
+	.directions {
+		padding-bottom: 30px;
+		padding-top: 5px;
+		border-top: 1px dotted #757575;
+		margin-top: 14px;
+		border-bottom: 1px dotted #757575;
+		margin-bottom: 50px;
+	}
 }
 
 .img-responsive {

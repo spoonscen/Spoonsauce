@@ -6,3 +6,11 @@ spoonsauceServices.factory('Recipe', ['$resource',
 			query: {method:'GET', params:{recipeId:'recipes'}, isArray:true}
 		});
 	}]);
+
+
+spoonsauceServices.factory('Pepper', ['$resource', 
+	function($resource){
+		return $resource('peppers/:pepperId.json', {}, {
+			query: {method:'GET', params:{pepperId:'peppers'}, isArray:true}
+		});
+	}]);

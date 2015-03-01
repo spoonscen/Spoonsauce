@@ -1,28 +1,24 @@
 {
-  "description": "Great tangy thick red sauce with a zesty ginger kick!",
+  "description": "Tangy lime garlic chili paste",
   "howto": {
     "ingredients": [
-      ".25 lbs Dried Thai Chillis",
-      "1x Fresh Limes",
-      "1x Tsp Fresh Grated Ginger Root",
-      "4x Cloves Garlic",
+      ".5 Lb of fresh Thai Chilis",
+      "3x Fresh Limes",
+      "2x Cloves Garlic",
       "2x Tbls Olive Oil",
       ".5 Cup Rice Vinegar",
-      "1x Small Carrot",
-      ".25 of a Large Onion",
+      "1x Large Carrot",
+      ".5 of a Large Yellow Onion",
       ".25 Tsp Salt"
     ],
     "recipe": [
-      "Rehydrate chillis by boiling and then reducing to a simmer for 2 hours then let them cool",
-      "While the chillis are cooking and cooling mince the onion, carrot and garlic",
-      "Saute the minced vegetables until they are soft",
-      "After the chillis cool strain them and save the liquid",
-      "Poor the strained chillis and minced vegetables into your food processor and gind them up fine",
-      "Take the ground up mixture and force it through the back of the wire strainer into a large bowl using a large metal spoon",
-      "Once you have done this with all of the contents of the food processor dump it into a large skillet",
-      "Use a cheese grater to shave the ginger root",
-      "Heat the mixture to a simmer and add the rice vinegar, olive, salt and ginger ",
-      "Add some of the liquid that we strained from the rehydrated peppers to the mixture to thin it out ",
+      "Chop the stems off the peppers and slice them in half",
+      "At this point you can discard some of the seeds and veins (these give the peppers heat)", 
+      "Sauté the fresh chilis to blacken the outside and place them in a bowl",
+      "Mince the carrot, garlic and onion.  Then soften them in the skillet with some olive oil",
+      "Place the peppers, rice vinegar and other vegetables in the food processor or blender",
+      "Once you have ground it all up pour the contents into the skillet",
+      "Heat the mixture to a simmer and then squeeze the lime juice from the limes into the skillet",
       "Continue to simmer and stir mixture until desired thickness of sauce",
       "At this point taste the sauce to see if it has the desired flavor; feel free to add more of any of the above ingredients to taste."
     ],
@@ -37,15 +33,11 @@
     ]
   },
   "cookinfo": {
-    "time": "4 hours",
-    "loe": "Difficult",
+    "time": "1 hour",
+    "loe": "Easy",
     "skill": "Medium"
   },
   "id": "jimmie-dimmick",
-  "images": [
-    "img/placeholder.jpg",
-    "img/placeholder1.jpg",
-    "img/placeholder2.jpg"
-  ],
+  "images": [],
   "name": "Jimmie Dimmick"
 }

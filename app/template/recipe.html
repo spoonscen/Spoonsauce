@@ -3,7 +3,7 @@
     <h1 class="cursive">{{sauce.name}}</h1>
     <p>{{sauce.description}}</p>
   </div>
-
+  <div class="carouselSize">
   <div ng-controller="CarouselCtrl">
     <div style="height: 305px">
       <carousel interval="myInterval">
@@ -16,28 +16,29 @@
       </carousel>
     </div>
   </div>
+  </div>
 
   <div class="recipe">
     <div class="ingredients-tools row">
-        <div class="col-md-6">
+        <div class="col-md-6 ingredients">
+          <h2>Ingredients</h2>
           <ul>
-            <h2>Ingredients</h2>
             <li class="ingredient" ng-repeat="ingredients in sauce.howto.ingredients">{{ingredients}}</li>
           </ul>
         </div>
         <div class="col-md-6">
+          <h2>Tools</h2>
           <ul>
-            <h2>Tools</h2>
             <li ng-repeat="tools in sauce.howto.tools">{{tools}}</li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="directions">
-          <h2>Directions</h2> 
-            <ol>
-              <li ng-repeat="recipe in sauce.howto.recipe">{{recipe}}</li>
-            </ol>
+        <div class="directions">
+            <h2>Directions</h2> 
+              <ol>
+                <li ng-repeat="recipe in sauce.howto.recipe">{{recipe}}</li>
+              </ol>
+      </div>
     </div>
   </div>
 </div>

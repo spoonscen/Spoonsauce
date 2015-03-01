@@ -1,27 +1,28 @@
-<div class="container">
+<div class="container content">
   <div class="row">
-    
+  <div>    
+  <h1 class="cursive list-title">Peppers</h1>
     <div class="search-div form-group">
       <form class="form-inline search-form">
       <label>Search: </label><input class="form-control search" width="10em" ng-model="query">
-      <label>Sort by:</label>
+      <label class="select-label">Sort by:</label>
         <select class="form-control select"ng-model="orderProp">
           <option value="name">Alphabetical</option>
           <option value="spice">Spice Level</option>
       </select>
       </form>
     </div>
-    <div class="col-md-12 list">
-        <ul>
-            <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
-              <a href="#/peppers/{{pepper.id}}">
-              <div class="img-responsive"><img ng-src="{{pepper.image}}"></a>
-              <h2 class="cursive">{{pepper.name}}</h2>
-              <p>{{pepper.description}}</p>
-              </div>
-            </li>
-        </ul>
+      <div class="col-md-12 list">
+          <ul>
+              <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
+                <a href="#/recipes/{{pepper.id}}">
+                <div class="img-responsive"><img ng-src="{{pepper.image}}"></a>
+                <h2 class="cursive">{{pepper.name}}</h2>
+                <p>{{pepper.description}}</p>
+                </div>
+              </li>
+          </ul>
+      </div>
     </div>
   </div>
 </div>
-
