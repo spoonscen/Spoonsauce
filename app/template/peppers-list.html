@@ -15,7 +15,7 @@
       <div class="col-md-12 list">
           <ul>
               <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
-                <a href="#/recipes/{{pepper.id}}">
+                <a href="#/peppers/{{pepper.id}}">
                 <div class="img-responsive"><img ng-src="{{pepper.image}}"></a>
                 <h2 class="cursive">{{pepper.name}}</h2>
                 <p>{{pepper.description}}</p>

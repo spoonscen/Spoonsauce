@@ -1,6 +1,6 @@
-<div class="container">
+<div class="container content">
   <div class="name-desc-img">
-    <h1 class="cursive">{{pepper.name}}</h1>
+    <h2 class="cursive">{{pepper.name}}</h2>
     <p>{{pepper.description}}</p>
   </div>
 
@@ -9,9 +9,6 @@
       <carousel interval="myInterval">
         <slide ng-repeat="slide in slides" active="slide.active">
           <img ng-src="{{slide.img}}" style="margin:auto;">
-          <div class="carousel-caption">
-            <p>{{slide.caption}}</p>
-          </div>
         </slide>
       </carousel>
     </div>
@@ -19,8 +16,8 @@
 
   <div class="recipe">
     <div class="ingredients-tools row clearfix">
-      <div class="col-md-12">
-        <div class="col-md-6">
+      <div class="col-md-12 pepper-details">
+        <div class="col-md-6 plant">
           <ul>
             <h2>Plant</h2>
             <li class="ingredient" ng-repeat="plant in pepper.characteristics.plant">{{plant}}</li>
@@ -36,17 +33,19 @@
         </div>
       </div>
         <div class="row">
-          <div class="col-md-6">
-            <ul>
-              <h2>In Food</h2>
-              <li class="use" ng-repeat="use in pepper.uses.food">{{use}}</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul>
-              <h2>Other Uses</h2>
-              <li class="use" ng-repeat="other in pepper.uses.other">{{other}}</li>
-            </ul>
+          <div class="col-md-12 pepper-food">
+            <div class="col-md-6">
+              <ul>
+                <h2>In Food</h2>
+                <li class="use" ng-repeat="use in pepper.uses.food">{{use}}</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <h2>Other Uses</h2>
+                <li class="use" ng-repeat="other in pepper.uses.other">{{other}}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

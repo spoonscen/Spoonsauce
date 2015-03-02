@@ -1,6 +1,6 @@
 <div id="home-page-banner">
-	<img src="img/test/chili-banner.jpg" alt="Banner">	
-	<p class="bounceInRight">Welcome to <span>Spoonsauce!</span></p>
+	<img src="img/home-page-banner.jpg" alt="Banner">	
+	<p>Welcome to <span>Spoonsauce!</span></p>
 </div>
 
 <div id="home-page-content" class="container content">
@@ -11,25 +11,29 @@
 			        <ul>
 			            <li class="row col-md-6 thumbs" ng-repeat="sauce in sauces | filter:query | orderBy:orderProp">
 			              <a href="#/recipes/{{sauce.id}}">
-			              <div class="img-responsive"><img ng-src="{{sauce.image}}"></a>
-			              <h2 class="cursive">{{sauce.name}}</h2>
-			              <p>{{sauce.description}}</p>
+				              <div class="img-responsive">
+				              <img ng-src="{{sauce.image}}"></a>
+				              <h2 class="cursive">{{sauce.name}}</h2>
+				              <p>{{sauce.description}}</p>
 			              </div>
 			            </li>
 			        </ul>
 		   		</div>
 			</div>
 			<h1 class="pepper-header">Our favorite <span class="cursive">Peppers</span></h1>
-			<div class="col-md-12 list">
-		        <ul>
-		            <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
-		              <a href="#/peppers/{{pepper.id}}">
-		              <div class="img-responsive"><img ng-src="{{pepper.image}}"></a>
-		              <h2 class="cursive">{{pepper.name}}</h2>
-		              <p>{{pepper.description}}</p>
-		              </div>
-		            </li>
-		        </ul>
-		    </div>
+			<div class="row">
+				<div class="col-md-12 list">
+			        <ul>
+			            <li class="row col-md-6 thumbs" ng-repeat="pepper in peppers | filter:query | orderBy:orderProp">
+			              <a href="#/peppers/{{pepper.id}}">
+			              <div class="img-responsive">
+				              <img ng-src="{{pepper.image}}"></a>
+				              <h2 class="cursive">{{pepper.name}}</h2>
+				              <p>{{pepper.description}}</p>
+			              </div>
+			            </li>
+			        </ul>
+				</div>
+			</div>
 	    </div>
 </div>

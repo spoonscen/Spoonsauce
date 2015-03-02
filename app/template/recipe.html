@@ -1,6 +1,6 @@
-<div class="container">
+<div class="container content">
   <div class="name-desc-img">
-    <h1 class="cursive">{{sauce.name}}</h1>
+    <h2 class="cursive">{{sauce.name}}</h2>
     <p>{{sauce.description}}</p>
   </div>
   <div class="carouselSize">
@@ -9,9 +9,6 @@
       <carousel interval="myInterval">
         <slide ng-repeat="slide in slides" active="slide.active">
           <img ng-src="{{slide.img}}" style="margin:auto;">
-          <div class="carousel-caption">
-            <p>{{slide.caption}}</p>
-          </div>
         </slide>
       </carousel>
     </div>

@@ -32,9 +32,9 @@ spoonSauceApp.config(['$routeProvider',
         templateUrl: 'template/pepper.html',
         controller: 'PepperDetailCtrl'
       }).
-        when('/bio', {
-        templateUrl: 'template/bio.html',
-        controller: 'BioPageCtrl'
+        when('/about', {
+        templateUrl: 'template/about.html',
+        controller: 'AboutPageCtrl'
       }).        
       otherwise({
         redirectTo: '/home'

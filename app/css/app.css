@@ -35,8 +35,9 @@ nav {
   text-align: center;
   position: relative;
   width: 80%;
-  margin: 188px auto 20px auto; }
-  .name-desc-img h1 {
+  margin: 50px auto 20px auto;
+  color: #757575; }
+  .name-desc-img h2 {
     font-size: 60px;
     font-weight: 600; }
   .name-desc-img p {
@@ -90,13 +91,15 @@ nav {
     font-size: 70px;
     margin-top: -246px;
     text-align: center;
-    color: white; }
+    color: white;
+    vertical-align: middle; }
     #home-page-banner p span {
       font-family: 'Dancing Script', cursive; }
 
 .container.content {
   padding-top: 130px;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  padding-bottom: 100px; }
   .container.content h1 {
     font-size: 60px;
     border-bottom: 1px dotted #757575;
@@ -140,10 +143,159 @@ nav {
     border-bottom: 1px dotted #757575;
     margin-bottom: 50px; }
 
-.img-responsive {
-  height: 450px; }
+.pepper-details {
+  margin-top: 50px;
+  border-bottom: 1px dotted #757575; }
+  .pepper-details .plant {
+    border-right: 1px dotted #757575;
+    height: 264px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
-.modal-dialog {
-  margin-top: 100px; }
+.about {
+  font-size: 20px;
+  margin: 130px auto;
+  width: 90%;
+  padding: 100px;
+  margin-bottom: 100px;
+  border-top: 1px dotted #757575;
+  border-bottom: 1px dotted #757575; }
+
+.pepper-food {
+  padding-bottom: 20px;
+  margin-bottom: 100px; }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .list img {
+    max-width: 400px; }
+
+  #home-page-banner p {
+    margin-top: -200px; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .list img {
+    max-width: 600px; }
+
+  nav h1 {
+    font-size: 60px; }
+
+  #home-page-banner {
+    margin-top: 145px; }
+    #home-page-banner p {
+      margin-top: -200px; }
+
+  .list .thumbs {
+    margin-top: 100px; }
+
+  .container.content {
+    padding-bottom: 100px; }
+    .container.content .pepper-header {
+      margin-top: 100px;
+      margin-bottom: -100px; }
+    .container.content .sauce-header {
+      margin-bottom: -100px; }
+
+  .pepper-details {
+    border-bottom: none; }
+    .pepper-details .plant {
+      border-right: none; }
+
+  .recipe .ingredients-tools {
+    margin-top: 140px; }
+  .recipe .ingredients {
+    border-right: none; }
+  .recipe .directions {
+    border-top: none; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .list img {
+    max-width: 400px; }
+
+  nav {
+    padding-left: 0px; }
+    nav h1 {
+      font-size: 50px; }
+    nav .logo {
+      border-bottom: none; }
+      nav .logo h1 {
+        font-size: 60px; }
+
+  .search-div form {
+    width: 350px; }
+
+  #home-page-banner {
+    margin-top: 135px; }
+    #home-page-banner p {
+      margin-top: -150px;
+      font-size: 60px; }
+
+  .container.content {
+    box-shadow: none; }
+    .container.content h1 {
+      border-bottom: none; }
+    .container.content .sauce-header {
+      font-size: 40px;
+      width: 100%; }
+    .container.content .pepper-header {
+      font-size: 40px;
+      width: 100%; }
+
+  .pepper-details {
+    border-bottom: none; }
+    .pepper-details .plant {
+      border-right: none; }
+
+  .recipe .ingredients-tools {
+    margin-top: 120px; }
+  .recipe .ingredients {
+    border-right: none; }
+  .recipe .directions {
+    border-top: none; } }
+@media only screen and (max-width: 479px) {
+  .list .thumbs {
+    margin: 0px -15px; }
+  .list img {
+    max-width: 320px; }
+
+  nav {
+    padding-left: 0px; }
+    nav h1 {
+      font-size: 40px; }
+    nav .logo {
+      border-bottom: none; }
+      nav .logo h1 {
+        font-size: 60px; }
+
+  .search-div form {
+    width: 350px; }
+
+  #home-page-banner {
+    margin-top: 135px; }
+    #home-page-banner p {
+      margin-top: -86px;
+      font-size: 38px; }
+
+  .container.content {
+    box-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 0px; }
+    .container.content h1 {
+      border-bottom: none; }
+    .container.content .sauce-header {
+      font-size: 38px;
+      width: 100%; }
+    .container.content .pepper-header {
+      font-size: 40px;
+      width: 100%; }
+
+  .pepper-details {
+    border-bottom: none; }
+    .pepper-details .plant {
+      border-right: none; }
+
+  .recipe .ingredients-tools {
+    margin-top: 120px; }
+  .recipe .ingredients {
+    border-right: none; }
+  .recipe .directions {
+    border-top: none; } }
 
 /*# sourceMappingURL=app.css.map */

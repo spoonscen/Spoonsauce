@@ -88,6 +88,6 @@ sauceRecipeControllers.controller('PepperDetailCtrl', ['$scope', '$routeParams',
 
 
 //placeholder controller for the bio page
-sauceRecipeControllers.controller('BioPageCtrl', ['$scope', 
+sauceRecipeControllers.controller('AboutPageCtrl', ['$scope', 
   function($scope) {}
 ]);
