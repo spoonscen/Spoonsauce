@@ -1,59 +1,63 @@
 <!doctype html>
 <html lang="en" ng-app="spoonSauceApp">
-<head>
-	<meta charset="utf-8">
-	<title>Spoonsauce</title>
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-	<link rel="icon" href="spoon.ico">
-	<link rel="stylesheet" href="css/app.css">
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,400italic|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/animate.css">
-
-	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/angular/angular.js"></script>
-	<script src="bower_components/angular-animate/angular-animate.js"></script>
-	<script src="bower_components/angular-route/angular-route.js"></script>
-	<script src="bower_components/angular-resource/angular-resource.js"></script>
-	<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/controllers.js"></script>
-	<script src="js/filters.js"></script>
-  	<script src="js/services.js"></script>
-</head>
-
-<body>
-	<div class="container row">
-		<div class="nav col-md-12">
-			<nav class="navbar-fixed-top navbar-default r" ng-controller="NavbarCtrl">
-			<div class="logo"><h1>Spoonsauce</h1></div>
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <img>
-			    </div>
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li ng-class="{ active: isActive('/home')}"><a ng-href="#/home">Home</a></li>
-			        <li ng-class="{ active: isActive('/recipes')}"><a ng-href="#/recipes">Recipes</a></li>
-					<li ng-class="{ active: isActive('/peppers')}"><a ng-href="#/peppers">Peppers</a></li>
-					<li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,400italic|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>Spoonsauce</title>
+		
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="icon" href="spoon.ico">
+		<link rel="stylesheet" href="css/app.css">
+		
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/services.js"></script>
+	</head>
+	<body>
+		<div class="container row">
+			<div class="nav col-md-12">
+				<nav class="navbar-fixed-top navbar-default r" ng-controller="NavbarCtrl">
+					<div class="logo"><h1>Spoonsauce</h1></div>
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<img>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="logo">Spoonsauce</li>
+								<li ng-class="{ active: isActive('/home')}"><a ng-href="#/home">Home</a></li>
+								<li ng-class="{ active: isActive('/recipes')}"><a ng-href="#/recipes">Recipes</a></li>
+								<li ng-class="{ active: isActive('/peppers')}"><a ng-href="#/peppers">Peppers</a></li>
+								<li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
 		</div>
-	</div>
-
-
-	<div id="content" ng-view="" autoscroll=""></div>
-
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-</body>
+		<div id="content" ng-view="" autoscroll=""></div>
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	</body>
 </html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63442458-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

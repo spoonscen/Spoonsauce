@@ -11,6 +11,7 @@ sauceRecipeControllers.controller('NavbarCtrl',
     'use strict';
     $scope.isActive = function(viewLocation) {
         return viewLocation === $location.path().substr(0, viewLocation.length);
+
     };
 });
 
@@ -47,21 +48,6 @@ sauceRecipeControllers.controller('RecipeDetailCtrl', ['$scope', '$routeParams',
       $scope.sauce = data;
     });
 }]);
-
-// sauceRecipeControllers.controller('ModalCtrl', ['$scope', 
-//   function($scope){
-//     $scope.modal = function(){
-//       $scope.src = $('.photo').attr('src');
-//       $scope.img = '<img src="' + $scope.src + '" class="img-responsive"/>';
-
-//       $('#photoModal .modal-body').html($scope.img);
-//       $('#photoModal').modal();
-      
-//       $('#photoModal').on('hidden.bs.modal', function(){
-//         $('#photoModal .modal-body').html('');
-//       });
-//     };
-// }]);
 
 // placeholder controller for the home page
 sauceRecipeControllers.controller('HomePageCtrl', ['$scope', 'Recipe', 'Pepper',

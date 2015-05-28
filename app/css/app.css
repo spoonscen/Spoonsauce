@@ -70,7 +70,7 @@ nav {
   max-width: 500px;
   box-shadow: 0px 0px 53px 0px #F1F1F1;
   border-radius: 3px;
-  margin-top: 10px; }
+  margin-top: 35px; }
 .list img:hover {
   opacity: 0.4; }
 .list .thumbs {
@@ -102,16 +102,15 @@ nav {
   padding-bottom: 100px; }
   .container.content h1 {
     font-size: 60px;
-    border-bottom: 1px dotted #757575;
     margin: 0 auto;
     color: #757575;
-    margin-top: 15px;
+    margin-top: 50px;
     text-align: center; }
   .container.content .sauce-header {
     width: 665px; }
   .container.content .pepper-header {
     width: 470px; }
-  .container.content p {
+  .container.content .home-description {
     font-size: 20px; }
   .container.content .list-title {
     margin-top: 50px;

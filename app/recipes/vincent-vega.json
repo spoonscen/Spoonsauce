@@ -44,7 +44,7 @@
   "id": "vincent-vega",
   "images": [
     {
-      "img": "img/test/ginger.jpg",
+      "img": "img/sauces/vincent-vega.jpg",
       "caption": "Fresh ginger"
     },
     {
@@ -52,7 +52,7 @@
       "caption": "Thai Chilis growing in a garden"
     },
     {
-      "img": "img/test/vincent-vega.jpg",
+      "img": "img/sauces/vincent-vega2.jpg",
       "caption": "Finished!"
     }
   ],
